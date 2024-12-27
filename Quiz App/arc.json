@@ -1,0 +1,42 @@
+{
+    "articles": [
+      {
+        "id": 1,
+        "author": "Ahmed Ali",
+        "category": "Technology",
+        "title": "The Rise of Artificial Intelligence"
+        ,
+        "body": "Article Number 1 Body"
+      },
+      {
+        "id": 2,
+        "author": "Sara Ibrahim",
+        "category": "Health",
+        "title": "The Benefits of a Balanced Diet"
+            ,
+        "body": "Article Number 2 Body"
+      },
+      {
+        "id": 3,
+        "author": "Mohamed Omar",
+        "category": "Business",
+        "title": "Strategies for Successful Startups",
+        "body": "Article Number 3 Body"
+      },
+      {
+        "id": 4,
+        "author": "Lina Hassan",
+        "category": "Travel",
+        "title": "Exploring the Hidden Gems of Asia",
+        "body": "Article Number 4 Body"
+      },
+      {
+        "id": 5,
+        "author": "Yousef Al-Khalil",
+        "category": "Science",
+        "title": "Understanding Quantum Physics",
+         "body": "Article Number 4 Body"
+      }
+    ]
+  }
+  

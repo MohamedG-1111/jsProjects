@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="./css/all.min.css"> -->
+    <link rel="stylesheet" href="./css/leon.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+    <div class="content">
+         <div class="main">
+            <div class="search">
+                <input type="text" placeholder="Search" id="cityName">
+                <i class="fa-solid fa-magnifying-glass" id="search"></i>
+             </div>
+             <div class="city">
+    <div class="image">
+        <img src="./images/mist.png" id="mainImg"alt="">
+    </div>
+    <div class="citycontent">
+        <p class="deg">22°c</p>
+        <p class="degcity">New York</p>
+    </div>
+             </div>
+      <div class="last">
+        <div class="first">
+            <img src="images/humidity.png" alt="">
+             <div class="humidity">
+                <p class="Hum">64%</p>
+                <p>Humidity</p>
+             </div>
+        </div>
+        <div class="second">
+            <img src="images/wind.png" alt="">
+             <div class="wind">
+                <p class="wid">18 km/h</p>
+                <p>Wind Speed</p>
+             </div>
+        </div>
+      </div>
+         </div>
+  <div class="Found">
+    <p>Not Found</p>
+    <i class="fa-solid fa-x" id="iconX"></i>
+  </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

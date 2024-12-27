@@ -1,0 +1,49 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%; 
+  }
+  
+  .form {
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    background-color: #eee;
+    padding: 30px;
+    width: 60%;
+  }
+  .form input:first-child{
+    width: 90%;
+    padding: 10px;
+    border: 2px red solid;
+    outline:none;
+  }
+  .form input:last-child,.tasks div button{
+    color:white;
+    background-color: rgb(232, 32, 32);
+    border:none;
+    outline: none;
+    border-radius:10px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .tasks{
+    background-color: #eee;
+    padding: 30px;
+    margin:20px auto;
+    width: 60%;
+    display: none;
+  }
+  .tasks .task{
+    background-color: white;
+    padding: 20px;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+    align-items: center;
+  }

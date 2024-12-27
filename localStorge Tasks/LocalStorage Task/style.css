@@ -1,0 +1,71 @@
+.first,.second,.three{
+    width:70%;
+    flex-wrap: wrap;
+    background-color: #eee;
+    padding: 20px;
+    margin:15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+}
+.first div,.second div{
+    width:100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:white;
+    font-size: 20px;
+    border-radius: 15px;
+    opacity: .6;
+    cursor: pointer;
+}
+.first .active,.second .active,.three .active{
+    opacity: 1;
+}
+.second div:nth-child(2){
+    background-color: green;
+}
+.second div:nth-child(3){
+    background-color: blue;
+}
+.second div:nth-child(4){
+    background-color: teal;
+}
+.second div:nth-child(5){
+    background-color: black;
+}
+.second div:nth-child(6){
+    background-color: orange;
+}
+.three div{
+    width: 50px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    border-radius: 20px;
+    color:white;
+    font-size:24px;
+    opacity: .6;
+    cursor: pointer;
+}
+.target{
+    width: 70%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color:red;
+    font-family: "Open Sans", sans-serif;
+}
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="quiz_app">
+        <div class="quiz-area">
+            <div>
+                <select name="Category" id="Category" placeholder="Select Category of Question" value="General Information">
+                    <option style="color:#777"  value="">Choose Category</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Sports">Art</option>
+                    <option value="Science: Computers">Science: Computers</option>
+                    <option value="History">History</option>
+                     <option value="Animals">Animals</option>
+                     <option value="General Knowledge">General Information</option>
+                </select>
+            </div>
+            <div>
+                <input type="number" placeholder="Number Of Question">
+            </div>
+            <button id="startQuiz">Start Quiz</button>
+        </div>
+        <div class="quizcontent">
+            <div class="qAS">
+                <div class="question">
+          
+                </div>
+                <div class="answers">
+                </div>
+            </div>
+            <input type="submit" id="submitAnswer" value="Submit Answer">
+            <button  id="showAnswer">Show Answer</button>
+            <div class="bulltes">
+            </div>
+            <div class="result">
+            <button id="Fin">Finish</button>
+            </div>
+        </div>
+    </div>
+      <div class="wran">
+        <p>Solve in order
+
+             <i class="fa-solid fa-x"></i>
+        </p>
+       
+      </div>
+    <script src="demo.js" type="module"></script>
+</body>
+
+</html>
